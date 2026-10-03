@@ -1,0 +1,311 @@
+CSC 1401,Computer Programming,"Introduces fundamental programming concepts such as data types, control structures, functions, and arrays using a high-level language (Python).",4,CSC
+CSC 2309,Data Analysis,"This course covers the fundamental concepts and techniques of data analysis. It introduces students to data modeling, extraction, preprocessing, transformation, plotting, and visualization. Students will be introduced to Python, NumPy and Pandas.",3,CSC
+CSC 1402,Computer Programming for Engineers,"Focuses on programming applications for engineering problems, covering numerical methods, simulation, and algorithmic thinking in python",4,CSC
+CSC 1300,Introduction to Computers,"Provides an overview of computer systems, software, and hardware components, introducing students to the basics of algorithmmic problem solving and programming logic.",4,CSC
+CSC 2302,Data Structures,"This course will build on the knowledge and skills acquired in the introductory programming course. It covers different types of data structures (lists, queues, graphs, etc.) and the associated algorithms, emphasizing memory vs. CPU tradeoffs",3,CSC
+CSC 2306,Object Oriented Programming,"This course will allow students to scale-up and solve problems using objected-oriented methodology. . Students will gain experience building object-oriented
+software solutions using the Unified Modeling Language (UML) and the Java programming language.",3,CSC
+CSC 2305,Computer Organization and Architecture,"This course provides a discussion of the fundamentals of computer organization and architecture and relates it to contemporary design issues.Topics include digital logic, instruction set architecture, computer
+arithmetic, architectural CPU design, and functional computer organization.",3,CSC
+CSC 3315,Languages and Compilers,"This course examines computer languages from the perspective of translation and the computational models they implement. The first half of the course reviews the evolution of languages, language design principles, and evaluation criteria, then presents the processing stages, theoretical concepts, and tools associated with language translation. The second half of the course introduces languages representing different programming paradigms and examines runtime handling of selected language features.",3,CSC
+CSC 3323,Analysis of Algorithms,"This course covers the study of algorithm design, including introductory concepts: sorting and searching algorithms; string, graph, and set algorithms; complexity classes; branch and bound algorithms; dynamic programming, and advanced topics.",3,CSC
+CSC 3324,Software Engineering,"Software Engineering is the application of engineering principles and techniques to the process of software development, delivery, maintenance, and decommission. Its purpose is to make the building of software systems formal and predictable, while delivering high quality software products that comply with client requirements and expectations.",3,CSC
+CSC 3351,Operating Systems,"This course introduces students to fundamental concepts of operating systems. It emphasizes structures, key design issues, as well as the fundamental principles behind modern operating systems. It covers concurrency, scheduling, memory and device management, file systems, and scripting. The course uses implementations of Unix-like and Windows systems to illustrate some concepts.",3,CSC
+CSC 3326,Database Systems,"The course covers the design and implementation of Relational databases. While significant focus is placed on Entity-Relationship and Relational modeling, other models and current trends in database are introduced. Relational Algebra and SQL are covered, including procedural SQL. A Relational DBMS is used along with database application development as lab work and class projects.",3,CSC
+CSC 3374,Advanced and Distributed Programming Paradigms,"This course provides theoretical knowledge about, and practical skills in advanced programming paradigms. It builds on the background acquired in introductory programming courses and other prerequisite courses to tackle programming models used in professional, enterprise-grade software development.",3,CSC
+CSC 3371,Computer Communications and Networks,"This course covers topics in data communications of interest to computing majors, such as types of LAN,
+VLAN, MAN, and WAN networks, with their corresponding access methods and link layer protocols. The
+course then moves on to cover the TCP/IP protocol stack, including IP functions such as addressing,
+routing, congestion control, and Transport layer function, such as reliable transmission and flow control.",3,CSC
+CSC 3309,Introduction to Artificial Intelligence,"The course provides students with the concepts and knowledge to design intelligent agents by leveraging the main skills of AI programming, namely searching for goals and planning, knowledge representation, logical and probabilistic inferencing, data learning from experience.",3,CSC
+CSC 4308,Cyber Security,"This course introduces the students to the computing perspective of cybersecurity. It focuses on the role of cryptography in data and network security on the one hand and access control on the other. As such, the course covers the principles behind secret key encryption algorithms such as AES and message authentication functions (SHA-XXX, CMAC, HMAC), public key encryption (RSA, Diffie-Hellman, Elliptic curve cryptography), key management, and digital signatures.",3,CSC
+CSC 3328,Embedded Systems,"This course surveys the application of computing systems in a range of devices ranging from nomadic devices to embedded real-time computers. Emphasis will be on developing applications for these platforms with stringent constraints such as low memory, limited power, limited processing power, no persistent storage capability, etc",3,CSC
+CSC 4399,Special Topics in Computer Science,Special topics in computer science. Courses may be taught by visiting or AUI faculty. This course is intended primarily for juniors and seniors. Can be repeated (not to exceed 6 SCH).,3,CSC
+CSC 3347,Machine Learning and Data Mining,"The course covers the most popular machine learning algorithms used for discovering meaningful patterns and knowledge from large amounts of data, including Artificial Neural Networks, Decision Trees, Association Rule Mining, Clustering algorithms, K-Nearest Neighbor approaches, etc.",3,CSC
+CSC 3310,Artificial Neural Networks,"This course defines biological, physical, and different mathematical models for Artificial Neural Networks (ANN), compares these models, and investigates the relationship between neural network learning and symbolic learning methods.",3,CSC
+CSC 3311,Computer Vision,"This course provides an introduction to computer vision including fundamentals of image formation, camera imaging geometry, feature detection and matching, stereo, motion estimation and tracking, image classification and scene understanding. The course will explore methods for depth recovery from stereo images, camera calibration, automated alignment, tracking, boundary detection, and recognition using both classical machine learning and deep learning approaches.",3,CSC
+EGR 2201,Introduction to Engineering and Design,This course provides an introduction to the profession and practice of engineering.,2,EGR
+CSC 3348,Natural Language Processing and Text Mining,"Natural Language Processing (NLP) is the field of modeling and processing linguistic information. This field is extremely multidisciplinary; therefore, the course will include some ideas central to Linguistics (morphology, syntax, semantics), and to modeling (probabilistic models, machine learning models). In recent years, deep learning approaches have obtained very high performance in NLP. Hence, besides investigating the fundamental concepts, students will gain an introduction to the cutting-edge neural network algorithms that have revolutionized the world of NLP for avariety of tasks and have a high impact in industry.",3,CSC
+CSC 3331,Introduction to Big Data Environment and Applications,"The course introduces Big Data management and techniques that can be applied to massive datasets in distributed environments. The course covers the Map-Reduce parallel computing paradigm and Hadoop distributed file system. The course reviews data storage and preparation for applications, including some machine learning algorithms used for mining knowledge in datastores, including NoSQL.",3,CSC
+CSC 4352,Big Data Analytics,"This course provides concepts and tools for building and adapting data-oriented analytical models based on massive data of different formats, using the parallel and distributed programming paradigms and data structures.",3,CSC
+CSC 3329,IoT & Big Data Streaming,"This course introduces students to the Internet of Things (IoT) world and technological trends. It covers IoT specific requirements and challenges, reference architecture, components and protocols, as well as state of the art IoT cloud platforms and architectural patterns. As IoT is a main source of big data, this course also addresses the cloud technologies and services necessary to support big data streaming and processing",3,CSC
+CSC 3346,Data Engineering and Visualization,"This course covers two independent, but complementary parts, namely data engineering and data visualization. In the first part we will cover data engineering, which is a prerequisite to any data science/ analytics project. We will explore various ways in building and maintaining data architectures for ingestion and processing, as well as ways for ensuring that there is uninterrupted flow/pipeline of data between servers and analytics applications.The second part will cover the art and science of turning data into readable graphics. We will explore how
+to design and create data visualizations based on data available and business objectives",3,CSC
+CSC 3349,Data Warehousing,"The course covers some advanced issues in database systems, including database storage, indexing and query processing, etc. Significant focus is placed on data warehouse design and architecture, including the fundamental concepts of dimensional modeling, covering star schemas and OLAP cubes. ETL and analytical querying and reporting for better decision-support are addressed, using case study analysis and project design.",3,CSC
+CSC 4351,Statistical Analysis,"This course provides statistical methods and tools for analytics, helping students in applying them for purposes of data analysis, hypothesis testing, and building prediction and forecasting models.",3,CSC
+CSC 3373,Cloud Computing,"The course focuses on the fundamentals of Cloud Computing technology and provides a broad understanding of the different enabling technologies, e.g., Virtualization and Distributed Systems. Topics include concepts and architecture, standards, implementation strategies, Software as a Service (SaaS), Platform as a Service (PaaS), Infrastructure as a Service (IaaS), software defined networks and storage, cloud storage, and programming models",3,CSC
+CSC 3376,Systems Programming,"This course teaches students how to build, debug, and test large computer programs. The course stresses learning how to use tools such as debuggers, profilers, source version control systems, and integrated development environments as an essential part of developing large programs. The course also stresses the understanding of how programs execute on today’s computers and how to measure and optimize performance",3,CSC
+CSC 4307,Agile Software Engineering and DevOps,"This course focuses on agility in software engineering: its values, principles, roles, practices, frameworks, and tools. It compares agile software development against traditional phase-based methodologies, such as Waterfall, to showcase the benefits of agility in modern software development",3,CSC
+CSC 4309,Enterprise Cloud and Mobile Applications,"This course provides a solid background – both theoretical and practical – on the architecture, design and full stack development of enterprise-class, cloud-based, mobile-first progressive applications, based on well-defined security, performance, scalability, extensibility and integration requirements.",3,CSC
+CSC 3357,Object-oriented Design,"The purpose of this course is to take students through the process of object-oriented analysis and design using the Unified Modeling Language (UML) and the Unified Process (UP). This course introduces the rational unified process, then the fundamental principles of object-oriented approaches to modeling software requirements and design.",3,CSC
+CSC 3358,Blockchain Business Application,"This course is intended to provide a theoretical background and hands-on knowledge of key elements for Blockchain for business applications developer. It introduces students to Blockchain concepts such as business networks, participants, assets, and trusted transactions, Hyperledger Fabric, Hyperledger Composer, and other Blockchain platforms, smart contracts, consensus, and architecture of Blockchain solutions.",3,CSC
+CSC 3359,Software Testing,"The objective of this course is to emphasize the importance of testing, and to prepare students to test software in an organized and systematic way. This course will provide theoretical and practical knowledge, as well as current research on software testing. Upon completion of the course, students will be capable of planning and applying various testing techniques and strategies for testing software.",3,CSC
+CSC 4306,Software Project Management,"The course covers the principles, themes, processes and tools for project management, as well as their extension for agile project management.",3,CSC
+MTH 1304,Discrete Mathematics for Engineers,"This course is an introduction to the fundamental ideas of discrete mathematics. Topics covered in this course include logic, sets, relations, function, number representation, graphs, and counting techniques and their applications to probabilistic reasoning. The aim of the course is to give the students a foundation for the development of more advanced mathematical concepts that are used in computer science and engineering.",3,MTH
+MTH 2301,Calculus II: Multivariable Calculus,"Multivariable calculus covers vectors and surfaces, partial differentiation, multiple integration, and vector calculus, including Green’s Theorem and Stokes’ Theorem.",3,MTH
+MTH 2304,Differential Equations,"The course covers differential equations, including basic concepts, first-order differential equations and applications, linear differential equations of higher order, series solutions, solutions using Laplace transforms, and solutions using numerical methods and applications.",3,MTH
+MTH 2320 / MTH 2303,Linear and Matrix Algebra,"Students are introduced to: vectors in R2 and R3, matrices and vectors; systems of linear equations, spanning sets, linear independence, linear transformations and matrix operators; LU decomposition of a matrix, determinants, subspaces, basis and dimension; coordinate systems and change of coordinates; eigenvalues and eigenvectors; orthogonality and orthogonal matrices; and applications of linear algebra to some computing and engineering problems.",3,MTH
+MTH 3301,Probability and Statistics for Engineers,"This course is a calculus-based introduction to probability and statistics with a focus on techniques and applications most relevant to engineering. Topics include basic probability, conditional probability, independence of events, random variables, cumulative distribution functions, density functions, expectation, variance and covariance, independence of events and random variables, common discrete and continuous distributions, Law of Large Numbers, the Central Limit Theorem, and an introduction to descriptive statistics and sampling distributions",3,MTH
+MTH 0311,Pre-Calculus,"This course is a foundational course for freshmen students who do not meet the requirements of Calculus 1. It covers introductory concepts like functions, graphs, and differentiation.",3,MTH
+MTH 1305,Mathematics for Business,"This is an introductory mathematics course tailored for business administration students. It covers concepts related to linear and quadratic functions, simple and compound interest, and statistican and data analysis.",3,MTH
+ECO 2310,Introduction to International Economics,"Examines the principles of international trade, foreign exchange markets, and global financial systems. Students explore trade policies, comparative advantage, and the economic relationships between nations.",3,ECO
+HIS 3301,International History: 1914 to the Present,"Traces major global events and developments from World War I to contemporary times. The course examines world wars, decolonization, the Cold War, and the emergence of modern international relations.",3,HIS
+INS 3303,International Law,"Studies the legal frameworks governing relationships between nations, including treaties, international organizations, and dispute resolution mechanisms. Students explore topics like human rights law, trade agreements, and the laws of war.",3,INS
+INS 2301,Theories of International Relations,"Analyzes major theoretical frameworks used to understand global politics, including realism, liberalism, constructivism, and critical theories. Students examine how these perspectives explain conflict, cooperation, and power dynamics between states.",3,INS
+PSC 2301,Comparative Political Systems,"Compares different forms of government and political institutions across countries, examining democracies, authoritarian regimes, and hybrid systems. Students analyze how political structures, cultures, and historical contexts shape governance outcomes.",3,PSC
+COM 3315,Media and Gender,"Explores how gender is represented, constructed, and challenged in various media forms including film, television, advertising, and digital platforms. Students critically analyze media''s role in shaping gender norms and identities.",3,COM
+SSC 2315,"Sex, Gender, and Power","Examines the relationship between gender identity, sexuality, and power structures in society. The course explores how gender hierarchies are maintained and contested across different social, political, and economic contexts.",3,SSC
+SSC 3311,Women and Economic Development,"Investigates women''s roles in economic systems and development processes globally. Students examine topics like women''s labor, entrepreneurship, poverty, and policies aimed at gender equity in economic participation.",3,SSC
+SSC 3316,"Gender, Politics, and Society","Analyzes how gender shapes and is shaped by political institutions, social movements, and public policy. The course covers topics like women''s political participation, feminist movements, and gender-based policy issues.",3,SSC
+PSY 3306,Human Sexuality and Gender,"Provides a comprehensive overview of human sexuality from biological, psychological, and sociocultural perspectives. Students explore topics including sexual identity, orientation, behavior, and contemporary issues in sexuality studies.",3,PSY
+SSC 3398,Special Topics in Gender Studies,"Offers focused examination of current issues, emerging research, or specialized themes in gender studies. Content varies by semester and instructor expertise.",3,SSC
+HIS 2371,Histories of Sub-Saharan Africa,"Surveys the diverse histories of African societies south of the Sahara from precolonial times through the modern era. Students examine kingdoms, colonialism, independence movements, and contemporary developments.",3,HIS
+HUM 2371,Popular Culture in Africa,"Explores African cultural production including music, film, literature, fashion, and digital media. The course examines how popular culture reflects social change, identity, and Africa''s global connections.",3,HUM
+PSC 2371,Introduction to African Politics,"Provides an overview of political systems, governance challenges, and democratic transitions in African countries. Students analyze topics like party systems, elections, civil society, and contemporary political issues.",3,PSC
+HIS 3311,Northern Africa,"Examines the geography, history, cultures, and contemporary issues of North African countries including Egypt, Libya, Tunisia, Algeria, and Morocco. The course explores the region''s distinct Arab-Berber identity and Mediterranean connections.",3,HIS
+LIT 3371,African Literature,"Surveys literary works by African authors across various genres and periods. Students explore how African writers address themes of colonialism, identity, tradition, modernity, and social change.",3,LIT
+INS 3371,Africa in World Politics,"Analyzes Africa''s role in international relations, including its relationships with major powers, regional organizations, and global institutions. The course examines topics like peacekeeping, development aid, and Africa''s emerging global influence.",3,INS
+INS 3372,Conflict in Contemporary Africa,"Investigates the causes, dynamics, and consequences of conflicts in modern Africa. Students examine civil wars, ethnic tensions, resource conflicts, and efforts toward peace and reconciliation.",3,SSC
+SSC 2371,Ethnography in Africa,Introduces ethnographic methods and anthropological perspectives on African societies. Students learn about fieldwork techniques and examine ethnographic studies of African communities and cultures.,3,SSC
+SSC 3371,Urbanization in Sub-Saharan Africa,"Explores rapid urban growth in African cities, examining migration patterns, urban planning challenges, informal settlements, and the social and economic transformations of urban life. Students analyze the opportunities and problems created by Africa''s urbanization process.",3,SSC
+SSC 3372,Political Economy of Development in Africa,"Examines the economic development trajectories of African nations, analyzing the intersection of political institutions and economic policies. The course covers topics like structural adjustment, natural resource management, foreign investment, and development strategies.",3,SSC
+SSC 3373,North African Cities,"Studies the unique characteristics, historical development, and contemporary challenges of urban centers in North Africa. Students explore architecture, urban planning, social dynamics, and cultural heritage in cities like Cairo, Casablanca, and Tunis.",3,SSC
+SSC 3379,Special Topics in African Studies,"Provides in-depth examination of specific themes, regions, or issues in African studies. Course content varies to address current events, emerging scholarship, or specialized areas of inquiry.",3,SSC
+HRD 2300,Introduction to Human Resource Development,"Provides foundational knowledge of HRD principles, including employee training, career development, and organizational learning. Students explore how organizations invest in human capital to improve performance and achieve strategic goals.",3,HRD
+HRD 2301,Business Environment and Ethics for HRD,"Examines ethical issues and decision-making frameworks relevant to human resource practices. The course addresses corporate responsibility, workplace ethics, and the broader business context in which HRD operates.",3,HRD
+HRD 3302,Ethics in Professional Contexts,Explores ethical theories and their application to professional dilemmas across various fields. Students develop critical thinking skills for navigating complex moral issues in workplace settings.,3,HRD
+HRD 3303,Training and Development,"Focuses on designing, implementing, and evaluating employee training programs. Students learn instructional design principles, needs assessment, training delivery methods, and measuring training effectiveness.",3,HRD
+HRD 3304,Strategic HRD,"Examines how human resource development aligns with organizational strategy and business objectives. The course covers workforce planning, talent management, and using HRD as a competitive advantage.",3,HRD
+HRD 3399,Special Topics in HRD,"Offers concentrated study of emerging trends, specialized issues, or current challenges in human resource development. Content varies based on industry needs and contemporary HRD research.",3,HRD
+HRD 4302,Needs Assessment and Organizational Effectiveness,Teaches methods for identifying performance gaps and development needs within organizations. Students learn assessment tools and techniques for diagnosing organizational problems and recommending solutions.,3,HRD
+HRD 4303,Leadership and Management Development,"Explores theories and practices for developing leadership capabilities and management skills. The course covers leadership styles, succession planning, and programs for building effective leaders at all organizational levels.",3,HRD
+HRD 4304,Consulting for HRD,"Introduces the consulting process and skills needed for internal and external HRD consulting roles. Students learn client relationship management, problem diagnosis, intervention strategies, and consulting ethics.",3,HRD
+HRD 4306,Organizational Development and Change,"Studies planned change processes and interventions for improving organizational effectiveness. The course covers change management theories, resistance to change, organizational culture, and implementing sustainable transformations.",3,HRD
+HRD 4307,Career Management and Development,"Examines individual career planning and organizational career development systems. Students explore career theories, counseling techniques, succession planning, and supporting employee career progression.",3,HRD
+HRD 4308,Global HRD,"Analyzes human resource development in international and cross-cultural contexts. The course addresses global workforce challenges, expatriate training, cultural dimensions, and managing HRD across borders.",3,HRD
+COM 1304,New Media Technology,"Explores emerging digital technologies and their applications in media production and communication. Students examine social media, mobile platforms, virtual reality, and how technological innovations transform media landscapes.",3,COM
+COM 2301,Professional Communication,"Develops written and oral communication skills for workplace contexts. The course covers business writing, presentations, interpersonal communication, and professional correspondence across various media, and connects said topics with AI influence and usage in todays society.",3,COM
+COM 2427,Art & Design Production,"Introduces principles and techniques of visual design and artistic production for media applications. Students learn about composition, color theory, typography, and creating visual content for various platforms.",4,COM
+COM 2403,Photography and Visual Story Telling,"Teaches photographic techniques and visual narrative construction. Students develop skills in composition, lighting, editing, and using images to communicate stories and messages effectively.",4,COM
+COM 2404,Introduction to Film Making,"Provides foundational knowledge of film production including pre-production, shooting, and post-production processes. Students learn basic cinematography, directing, editing, and the technical and creative aspects of filmmaking.",4,COM
+COM 3301,Public Relations and Communication,"Examines strategies for managing organizational reputation and relationships with various publics. The course covers PR campaigns, media relations, crisis communication, and building positive public image.",3,COM
+COM 3304,Alternative Media,"Explores non-mainstream media forms including independent journalism, community media, and grassroots communication platforms. Students examine how alternative media challenges dominant narratives and serves underrepresented communities.",3,COM
+COM 3311,Marketing Communications,"Studies integrated marketing communication strategies including advertising, promotions, branding, and digital marketing. The course examines how organizations create consistent messages across multiple channels to reach target audiences.",3,COM
+COM 3321,Moroccan Media and Society,"Examines the media landscape in Morocco, including press freedom, broadcasting, digital media, and journalism. The course explores the relationship between media institutions and Moroccan society, politics, and culture.",3,COM
+COM 3328,Media Analysis,"Develops critical skills for analyzing media texts, institutions, and audiences. Students learn theoretical frameworks and methodologies for examining how media produces meaning and influences society.",3,COM
+ARB 1203,Arabic for Communication Purposes,An intermediate course advancing students' Arabic communication proficiency. Emphasizes complex conversational scenarios and cultural nuances.,2,ARB
+COM 3330,Organizational Communication,"Studies communication processes within organizations including internal communication, organizational culture, and information flow. The course examines how effective communication supports organizational goals and employee engagement.",3,COM
+COM 3398,Special Topics in Media,"Provides focused investigation of current issues, emerging trends, or specialized areas in media studies. Course content varies to address contemporary media phenomena and research.",3,COM
+COM 3399,Special Topics in Communication,"Offers in-depth examination of specific communication theories, contexts, or issues. Content varies to explore current developments and specialized areas within communication studies.",3,COM
+COM 3402,Advanced Film Production,"Builds on introductory filmmaking skills with emphasis on advanced techniques in cinematography, directing, and post-production. Students work on complex film projects and develop professional-level production capabilities.",4,COM
+COM 4304,Communication and Development,"Examines the role of communication in social and economic development processes. The course explores how media and communication strategies support development initiatives, behavior change, and community empowerment.",3,COM
+COM 4401,Digital Advertising Production,"Focuses on creating advertising content for digital platforms including social media, websites, and mobile applications. Students learn digital design tools, copywriting, and campaign development for online environments.",4,COM
+COM 4405,Media Production Project Seminar,"Provides guided experience in planning and executing a substantial media production project. Students apply theoretical knowledge and technical skills to create professional-quality media work, often serving as a capstone experience.",4,COM
+PSY 1303,Clinical Psychology & Psychopathology,"Examines psychological disorders, their diagnosis, symptoms, and treatment approaches. Students learn about mental health conditions, assessment methods, and evidence-based therapeutic interventions.",3,PSY
+PSY 2302,Cognitive Sciences & Cognitive Psychology,"Explores mental processes including perception, memory, attention, language, and problem-solving. The course examines how people acquire, process, and store information, drawing on psychology, neuroscience, and artificial intelligence.",3,PSY
+PSY 2303,Developmental Psychology,"Studies human psychological development across the lifespan from infancy through old age. Students examine cognitive, social, emotional, and physical changes, as well as factors influencing development at different life stages.",3,PSY
+PSY 3302,Social/Organizational Psychology,"Investigates how social contexts and group dynamics influence individual behavior and organizational functioning. The course covers topics like conformity, persuasion, group decision-making, leadership, and workplace behavior.",3,PSY
+PSY 3305,Interpersonal Relations and Conflict Resolution,"Examines communication patterns, relationship dynamics, and strategies for managing interpersonal conflicts. Students develop skills in negotiation, mediation, and building healthy personal and professional relationships.",3,PSY
+PSY 3304,Industrial and Organizational Psychology,"Applies psychological principles to workplace issues including employee selection, performance management, motivation, and job satisfaction. The course addresses how to optimize both employee well-being and organizational productivity.",3,PSY
+PSY 3397,Language Acquisition,"Studies how humans acquire first and second languages, examining cognitive processes, developmental stages, and factors affecting language learning. The course covers theories of language acquisition and their educational implications.",3,PSY
+PSY 3395,Educational Psychology,"Examines psychological principles applied to teaching and learning contexts. Students explore learning theories, motivation, classroom management, assessment, and individual differences that affect educational outcomes.",3,PSY
+PSY 3392,Psychology of Social Media,"Investigates psychological effects of social media use on individuals and society. The course examines topics like online identity, digital communication, social comparison, addiction, and mental health implications of social media engagement.",3,PSY
+PSY 3393,Political Psychology,"Analyzes psychological factors underlying political behavior, attitudes, and decision-making. Students explore topics like political identity, voting behavior, prejudice, propaganda, and the psychology of leadership and extremism.",3,PSY
+FYE 1101,First Year Experience Seminar I,"An introductory course designed to help students transition to university life. Focuses on academic skills, time management, and campus resources.",1,FYE
+FYE 1102,First Year Experience Seminar II,"A continuation of FYE 1101, further developing students'' academic and personal success skills. Emphasizes goal setting and university engagement.",1,FYE
+FAS 0210,Foundations for Academic Success,"A foundational course that builds essential academic skills for university-level work. Covers critical thinking, study strategies, and academic integrity.",2,FAS
+ENG 1301,English Composition I,An introductory writing course emphasizing critical reading and analytical writing. Students develop skills in essay composition and revision.,3,ENG
+ENG 2301,"Inquire, Inspire & Impact: Written",An advanced composition course focusing on research-based writing and argumentation. Students learn to synthesize multiple sources effectively.,3,ENG
+ENG 2302,Winning Words: Communication,A survey course exploring major works of English literature across different periods. Examines cultural and historical contexts of literary texts.,3,ENG
+ENG 2303,Technical Writing,"A required course for the internship, teaches students how to write and present professional written work in forms of cover letters, CVs, Technical summaries, etc.",3,ENG
+ARA 1201,Arabic Beginning I,"An introductory course in Modern Standard Arabic covering basic grammar and vocabulary. Develops foundational speaking, reading, and writing skills.",2,ARA
+ARA 1202,Intermediate Arabic,"A continuation of Arabic I, advancing students'' proficiency in grammar and communication. Expands vocabulary and cultural understanding.",2,ARA
+ARB 1201,Basic Standard Arabic,An introductory course emphasizing practical Arabic communication skills. Develops speaking and listening abilities for everyday contexts.,2,ARB
+ARB 1202,Arabic for Academic Purposes,A continuation of Arabic Communication I with focus on intermediate conversational skills. Enhances fluency and cultural competence with a focus on arabic usage in academic context.,2,ARB
+EGR 2301,Statics,This course covers the mechanics of bodies at rest.,3,EGR
+ARB 1241,Arabic Literature,"An arabic literature course tailored towards students with a native or proficient level in arabic. This course covers concepts related to arabic poetry, texts,  essay writing, and creative writing in the arabic language.",2,ARB
+FRN 3210,Advanced French Writing,"An advanced course in French language with emphasis on french acadelic writing. Develops proficiency in reading, writing, and speaking French.",2,FRN
+HIS 1301,History of the Arab World,"A survey of arab world history from ancient civilizations to the early modern period. Explores major political, social, and cultural developments.",3,HIS
+HIS 2301,World History,"A summary of World History covering ancient and modern global history. Examines imperialism, world wars, and contemporary international relations.",3,HIS
+HUM 2302,Islamic Societies,An introductory course to Islamic nations and societies. It compares islamic societies in the pre-islamic era and the contemporary modern era.,3,HUM
+LIT 2301,Major Works in World Literature,A survey course introducing major literary genres and critical approaches. Develops analytical skills for interpreting literary texts.,3,LIT
+HUM 2305,Science & Society,"An exploration of the role of science in understanding contemporary society. Examines ethical, scientific, and cultural questions.",3,HUM
+HUM 2306,Comparative Religion,A study of religions from a comparative perspective across cultures. Explores universal themes and diverse religious views .,3,HUM
+PHI 2301,Philosophical Thought,"A foundational course in philosophical thinking and major philosophical questions. Explores ethics, metaphysics, and epistemology.",3,PHI
+PHI 2302,History of Ideas,A systematic study of historical theories and the history behind moral reasoning. Examines contemporary ethical dilemmas and philosophical approaches.,3,PHI
+HUM 2301,Islamic Art & Architecture,"An interdisciplinary exploration of artistic expression across islamic art pieces. Analyzes relationships between visual arts, Islamic architecture, and concluded values.",3,HUM
+ART 1301,Visual and Interactive Arts,"An interactive art course specifically targeting visuals such as painting, drawing, and sketching, and digital design as types of visual and interactive arts. This course combines theory and practice, focusing on practical projects.",3,ART
+ART 1303,Performing Arts and Performance Studies,A hands-on course introducing fundamental performing techniques and concepts. Develops creative expression through theatre and performance studies.,3,ART
+ART 1304,Culture and Heritage,A discussion based course covering concepts of culture and heritage and the intersection between the two disciplines.,3,ART
+ART 1305,Art History,An introductory history course covering historical elements and principles of all various forms of arts.,3,ART
+ART 3399,Special Topics in Cultural Production,An upper-level course for in-depth exploration of specialized art topics. Emphasizes critical analysis and advanced artistic practice.,3,ART
+ENG 2320,Creative Writing,"A workshop course developing skills in fiction, poetry, or creative nonfiction. Emphasizes craft, revision, and peer critique.",3,ENG
+ECO 1300,Introduction to Economics,A foundational course covering basic economic principles and theories. Examines microeconomic and macroeconomic concepts and their real-world applications.,3,ECO
+GEO 1301,Introduction to Geography,"A survey course exploring physical and human geography across the globe. Examines spatial relationships, environmental systems, and cultural landscapes.",3,GEO
+PSY 1301,Introduction to Psychology,"A foundational course in psychological science covering major theories and research. Explores human behavior, cognition, and mental processes.",3,PSY
+SOC 1301,Introduction to Sociology,"A comprehensive introduction to sociological perspectives and social structures. Examines social institutions, inequality, and human interaction in society.",3,SOC
+SSC 1310,Introduction to Anthropology,An interdisciplinary course exploring key concepts across social science disciplines? Focusing on anthropology. Develops critical thinking about social phenomena and research methods.,3,SSC
+SLP 1101,Service Learning Project,A community-based learning experience connecting academic study with real-world service. Develops civic responsibility and applies classroom knowledge to community needs.,1,SLP
+CIP 2000,Service Learning Project,A community-based learning experience connecting academic study with real-world service. Develops civic responsibility and applies classroom knowledge to community needs.,1,CIP
+ACC 2301,Principles of Financial Accounting,This course is an introduction to the fundamental concepts of financial accounting.,3,ACC
+FIN 3301,Financial Management for Business,Financial management for business and the corporation emphasizes the conceptual framework and principles of financial management for business organizations.,3,FIN
+MGT 3301,Principles of Management,This course offers an overview of the art and science of management.,3,MGT
+ACC 2302,Cost and Managerial Accounting,"This course covers basic cost relationships, cost behavior, cash flow statements, financial statement analysis, including ratio analysis, horizontal, and vertical analysis cost of products for managerial decision-making, forecasting, budgeting, and profitability analysis.",3,ACC
+GBU 3311,Business Statistics,This course is designed to provide foundations of statistical methods for managerial decision-making.,3,GBU
+GBU 4308,E-Commerce Practices,This course introduces concepts and methods surrounding electronic commerce practices.,3,GBU
+MGT 3302,Entrepreneurship,"This course introduces students to the role of the entrepreneur in the economic system and how to start, finance, and operate a successful business.",3,MGT
+MGT 4303,Operations Management,This course introduces the field of operations management and a state-of-the-art view of the primary activities of the operations function in manufacturing and service organizations.,3,MGT
+MIS 3302,Management Information Systems,This course covers the managerial and organizational issues involved in operating a firm.,3,MIS
+MKT 3301,Principles of Marketing,This course gives an outline of common marketing concepts and models with the purpose of developing responsive marketing strategies that meet customers’ needs.,3,MKT
+MKT 4304,Marketing Research,This course focuses on the use of marketing research as an aid to making marketing decisions.,3,MKT
+MKT 4305,Marketing Management,"This course is concerned with the development, evaluation, and implementation of marketing management in complex environments.",3,MKT
+SCM 4301,Supply Chain Management,Supply chain management is the integration of all activities associated with the flow and transformation of goods.,3,SCM
+EGR 2210,Computer Aided Engineering,This course provides an introduction to engineering design.,2,EGR
+EGR 3331,Digital Design,Introductory concepts needed to design digital systems.,3,EGR
+EGR 2311,Dynamics,This course covers the mechanics of bodies in motion.,3,EGR
+EGR 2302,Engineering Economics,This course covers the time value of economic resources.,3,EGR
+EGR 2402,Electric Circuits,The topics covered in this course include the basic principles of R-L-C circuit concepts.,4,EGR
+EGR 3304,Materials Science,This course introduces students to the properties and selection of common engineering materials used in engineering applications.,3,EGR
+EGR 3305,Signals & Systems,The primary goal of this course is to provide a thorough understanding and analysis of signals and systems.,3,EGR
+EGR 3306,Instrumentation & Mechatronics,The course deals with appropriate measurement techniques and proper instrumentation to acquire data.,3,EGR
+EGR 4402,Capstone Design,Team-based senior design project integrating engineering knowledge from prior coursework.,4,EGR
+EGR 3203,Applied Undergraduate Research,"In this course, the student will participate in a formal research project.",2,EGR
+EGR 3271,Innovation & Entrepreneurship,This course explores the role of the entrepreneur in the economic system.,2,EGR
+EGR 3310,Micro-Controllers,This course introduces students to the world of microcontrollers.,3,EGR
+EGR 3316,Control Systems,"This course introduces students to the fundamental principles, concepts, and characteristics of feedback control systems.",3,EGR
+EGR 3320,Industrial Robotics,Industrial robots are widely used in industrial automation.,3,EGR
+PHY 1401,Physics 1,"Calculus-based introduction to mechanics: kinematics, forces, energy, momentum, and rotation.",4,PHY
+PHY 1402,Physics 2,"Electricity and magnetism, waves, and optics for science and engineering students.",4,PHY
+PHY 1400,Conceptual Physics,"Qualitative survey of motion, energy, waves, electricity, and modern physics for non-majors.",4,PHY
+CHE 1401,Chemistry 1,"General chemistry I: atomic structure, bonding, stoichiometry, gases, and thermochemistry.",4,CHE
+CHE 1302,Chemistry 2,"General chemistry II: kinetics, equilibria, acids/bases, thermodynamics, and electrochemistry.",3,CHE
+BIO 1400,Environmental Biology,"Principles of ecology, ecosystems, and human impacts on the environment.",4,BIO
+BIO 1401,Principles of Biology,"Cell structure and function, genetics, evolution, and organismal diversity.",4,BIO
+COM 1301,Public Speaking,"Freshman course delving into the art of public speaking, training students to hold speeches in the professional context.",3,COM
+FAS 1220,Introduction to Critical Thinking,A freshman level course in academic success focusing on the principles and teachings of critical thinking in an educational context,2,FAS
+MTH 1303,Calculus I: Differential and Integral Calculus,"The emphasis of this course is on problem solving, not on the presentation of theoretical considerations. While the course necessarily includes some discussion of theoretical notions, its primary objective is not the production of theorem-provers. The syllabus for MTH 1303 includes most of the elementary topics in the theory of real-valued functions of a real variable: limits, continuity, derivatives, maxima and minima, integration, trigonometric, logarithmic, and exponential functions and techniques of integration.",3,MTH
+EGR 3302,Thermodynamics,"This course covers the fundamentals of converting energy, thermodynamic properties of liquids and gases.",3,ERG
+EGR 3301,Fluid Mechanics,This course covers basic principles of fluid statics and dynamics.,3,ERG
+EGR 4300,Internship,This course consists of on-the-job education and training in a public or private sector agency or business related to the student's field.,3,ERG
+EGR 2312,Mechanics of Materials,Sophomore course that focuses on fundamental mechanics knowledge to better understand materials,3,EGR
+EGR 3392,Operations Research and optimization,This course introduces students to mathematical methods for making optimal decisions in complex systems. Students should expect to learn techniques for modeling real-world problems and finding the best solutions under constraints.,3,EGR
+EGR 4394,Engineering Stochastic Processes,"This course introduces students to random processes that evolve over time, providing tools to model and analyze systems with inherent uncertainty and randomness. Students should expect to move beyond basic probability and statistics to study dynamic systems where outcomes are probabilistic rather than deterministic.",3,EGR
+EGR 4392,Project Management,"This course teaches students the basics of project management, including but not limited to project planning and scheduling, resource management and budgeting, and risk management.",3,EGR
+EGR 4395,Management Information Systems,"This course explores how organizations use information technology and systems to achieve business objectives, improve decision-making, and gain competitive advantages. Students should expect to understand the intersection of business strategy, technology, and organizational processes.",3,EGR
+EGR 3303,Engineering Statistics,"This course provides students with foundational statistical methods essential for analyzing data and making informed engineering decisions under uncertainty. Students should expect to learn how to collect, analyze, and interpret data to solve practical engineering problems.",3,EGR
+EGR 4393,"Production and Operations
+Management","This course focuses on how organizations design, manage, and improve the processes that create goods and services. Students should expect to learn systematic approaches to making operations more efficient, cost-effective, and responsive to customer needs.",3,EGR
+MLE 3301,"Manufacturing/Supply Chain Management and
+Sustainability ","The course is designed for early exposure and understanding of the practical and
+theoretical in supply chain management and sustainability to the students. It guides
+students to develop an effective SCM strategy and its activities, as well as understand
+the relationships that exist among a chain of firms that work together to provide a
+product or service. It shall cover the quality followings: supply chain strategy, sourcing
+strategy, logistic management, distribution management, production and inventory
+management, measuring supply chain performance, information technology in supply
+chain, coordination in supply chain, and sustainability. The learning process for this
+course will be conducted through lectures, case studies practices, discussion, group
+project, and presentation.",3,MLE
+MLE 4305,Transportation and Logistics,"This course studies the processes involved in the planning and coordination of
+delivering persons or goods from one origin to a destination. Students learn to master
+transportation management system (TMS) and other strategic business tools for an
+effective control of transportation cost management. The course targets among other
+learning outcomes, solving for the variants of vehicle routing problems as an effective
+way for fleet management.",3,MLE
+MLE 3305,Quality Management and Control,"3 lecture hours
+This course introduces the quality management principles and the role of total quality
+in all key economic sectors. It also gives an overview of the philosophical perspectives
+supporting total quality. Finally, it provides basic technical tools and techniquesrelevant
+to quality assurance, control, and improvement, including management
+297
+models such as the Deming Cycle, Six Sigma programs, and the seven Quality Control
+tools.",3,MLE
+EDS 3302,Forcasting and Time Series,"A practical course on analyzing data that arise sequentially in time (e.g., sales volume,
+precipitation, GDP, demand, unemployment rates, etc.). The course will teach
+students: how to detect trends and underlying seasonal patterns; how to use the BoxJenkins methodology, autoregressive, and moving average processes; and about
+exponential smoothing, classical decomposition, and regression methods. It will also
+257
+provide an introduction to multivariate time series and Neural Networks Autoregression.",3,EDS
+EDS 4304,System Simulation,"This course is aimed at equipping students with the knowledge on discrete-event
+simulation. A software will be used to model, build, and run simulation models. The
+course covers topics on discrete-event approaches, representing uncertainty, tracedriven simulation, input data analytics, modelling and building simulation models,
+verifying and validating simulation models, experimentation and running of simulation
+models, analysis of output results, etc. Promodel/Awsim for Facility Design; Auto CAD
+for Product design; and R-Studio/SPSS for Statistical Analysis.",3,EDS
+EDS 4306,Non-Linear Optimization Problems,"This course is designed to introduce students to the fundamentals of nonlinear
+optimization and their applications in engineering. The course will cover both
+unconstrained and constrained optimization, convex and non-convex optimization, as
+well as algorithms and software tools commonly used in nonlinear optimization.
+Students will also learn about real-world applications of nonlinear optimization in
+various engineering fields",3,EDS
+BIO 2301,Cellular and Molecular Biology,"This course is designed for SSE students who have decided to undergo a thematic
+240
+area in Biotechnology. The course is a continuity to BIO 1401 with more depth in the
+cellular and molecular aspects that govern the organization and function of living
+organisms.
+In this course, students will cover and understand the major mechanisms that relate
+the structure to the function of living organisms. Gene expression, gene regulation,
+protein production, cell signaling, as well as cellular secretion mechanisms. The basics
+microbiology and molecular immunology will also be addressed in this course.",3,BIO
+BIO 3355,Biotechnology,"This course introduces the field of biotechnology with a broad view. Students will learn
+the processes and methods used to manipulate living organisms and products from
+these organisms for medical, agricultural, and industrial purposes. The course will
+cover the wide spectrum of molecular biotechnology, gene expression, protein
+purification and basic functional genomics, and will shed light on their application in
+gene therapy, medicine, agriculture, and forensics, amongst other fields. This course
+includes embedded lab sessions related t",3,BIO
+BIO 4355,Techniques and Regulations in Applied Biotechnology,"This course focuses on applied biotechnology with a focus on medicine, agriculture
+and applied research. The course will be combined of lectures and a series of seminars
+addressed by specialists from diverse disciplines and specialties that relate to
+biotechnology. The course will cover most popular biotech techniques (advanced
+genome sequencing, flow cytometry, cell transfection, molecular labelling, etc.) as well
+as the regulations in different fields of biotechnology, with an emphasis on biosafety,
+241
+biosecurity, bioethics, regulations (including in clinical trials), and biotech certifications
+(GMP, GLP, etc.).",3,BIO
+FIN 3302,Money and Banking,"This is an overview of general monetary and banking policies. It deals with the supply
+of money for a nation and the relationship of commercial banking with the supply and
+demand for money. This course also analyses monetary concepts, central banking
+functions, and techniques of monetary stabilization.",3,FIN
+FIN 3303, Corporate Financial Management,"This course continues the study of financial decision-making in corporations. The main
+topics covered are advanced ratios analysis, capital budgeting, capital structure,
+dividend policy, and an introduction to portfolio management. The course also provides
+an in-depth analysis of financial problems with the organization, operation, merger, and
+dissolution of corporations.
+",3,FIN
+FIN 3304,International Finance,"This course introduces students to the world of international finance, investment, and
+business. Standard financial management and the multidimensional world of decisionmaking within a global context are addressed.",3,FIN
+GBU 3302,Business Law and Ethics,"This course cannot be taken abroad or on exchange. This course focuses on the organization and operation of both American and Moroccan
+legal systems, legal rules, and ethical constraints that impact business, and the
+practical application of these rules and constraints to real-world situations. Emphasis
+is placed on analytical problem solving and ethical decision-making.
+",3,GBU
+EGR 3314,Power Electronic Systems,"This course introduces students to power electronics and explains the applications of
+solid-state electronics for the control and conversion of electric power. The course
+covers the main power electronics topics - namely, power computations, dc-dc
+converters, dc power supplies, inverters, rectifiers, and drive and snubber circuits. ",4,EGR
+AER 3301,Aircraft Structure,"This course covers the following topics: Strength of material, Aircraft Structural Detail;
+Structural Idealization, Aircraft materials, Loads on Aircraft Structures, Shear forces,
+Moments, Bending and Twisting in Aircraft structural components, Theory of Elasticity,
+Bending and Twisting of thin-walled cross-sections, Shearing in thin-walled beams,
+236 and Force Analysis in Landing Gears.
+",3,AER
+AER 3302,Aerodynamics,"This course provides students with required basic air flow laws, potential flow theory,
+airfoil theory, finite wing theory as well as linearized supersonic flow. It covers the
+following topics: Two-Dimensional Inviscid Fluid Flow; Stream Function and Velocity
+Potential; Superposition of Elementary Flows; Thin Airfoil Theory; Finite Wings;
+Incompressible Boundary Layer; Oblique shock waves and expansion waves; and
+Airfoils in supersonic flow.
+",3,AER
+AER 3303,Applied Thermal Sciences,"This course covers topics selected from the disciplines of fluid mechanics, engineering
+thermodynamics, heat transfer, and combustion to study energy systems, aircraft
+propulsion, etc. This course prepares students for advanced analysis of energy
+systems and propulsion’s system components. Students completing this course should
+be able to perform thermodynamic analysis for thermophysical problems in energy
+systems involving heat transfer and combustion.",3,AER
+AER 3312,Flight Dynamics,"This course provides students with the necessary knowledge to understand, define,
+and calculate different aeronautical vehicle performance configurations. It covers the
+following topics: Aircraft performance in steady flight; Straight and level flight; Flight
+limitations; Drag; performance curves in terms of thrust and power; Gliding flight;
+Range and endurance; Climbing flight; Aircraft performance in accelerated flight; Takeoff and landing; and Turning flight.
+",3,AER

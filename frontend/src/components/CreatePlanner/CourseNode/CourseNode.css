@@ -1,0 +1,119 @@
+/* CourseNode.css */
+
+.course-node-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.course-node {
+  background: linear-gradient(135deg, #4678ff 0%, #2557d6 100%);
+  color: white;
+  padding: 0.72rem 0.92rem;
+  border-radius: 0.82rem;
+  cursor: move;
+  box-shadow: 0 12px 26px rgba(37, 99, 235, 0.22);
+  min-width: 150px;
+  transition: all 0.22s ease;
+  user-select: none;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.course-node:hover {
+  transform: translateY(-1px) scale(1.01);
+  box-shadow: 0 16px 32px rgba(37, 99, 235, 0.24);
+}
+
+.course-node.dragging {
+  opacity: 0.5;
+  cursor: grabbing;
+}
+
+.course-node-content {
+  text-align: center;
+}
+
+.course-node-code {
+  font-weight: 800;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.18rem;
+}
+
+.course-node-title {
+  font-size: 0.8rem;
+  opacity: 0.96;
+  line-height: 1.28;
+}
+
+.course-tooltip {
+  position: absolute;
+  z-index: 50;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 0.5rem;
+  width: 15rem;
+  background-color: #0f172a;
+  color: white;
+  padding: 0.75rem;
+  border-radius: 0.6rem;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+  animation: fadeIn 0.2s ease-out;
+  pointer-events: none;
+}
+
+.course-tooltip-code {
+  font-size: 0.875rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+  color: #93c5fd;
+}
+
+.course-tooltip-description {
+  font-size: 0.75rem;
+  margin-bottom: 0.45rem;
+  line-height: 1.5;
+  color: #e5e7eb;
+}
+
+.course-tooltip-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  padding-top: 0.45rem;
+  border-top: 1px solid #1f2937;
+}
+
+.course-tooltip-prereqs {
+  color: #fbbf24;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .course-node {
+    min-width: 140px;
+    padding: 0.7rem 0.85rem;
+  }
+
+  .course-node-code {
+    font-size: 0.9rem;
+  }
+
+  .course-node-title {
+    font-size: 0.75rem;
+  }
+
+  .course-tooltip {
+    width: 13rem;
+  }
+}

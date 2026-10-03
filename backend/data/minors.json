@@ -1,0 +1,38 @@
+{
+  "BUSINESS_ADMINISTRATION": {
+    "name": "Business Administration Minor",
+    "required_courses": [
+      {
+        "code": "ACC 2301",
+        "name": "Accounting Principles I",
+        "credits": 3
+      },
+      {
+        "code": "FIN 3301",
+        "name": "Principles of Finance",
+        "credits": 3
+      },
+      {
+        "code": "MGT 3301",
+        "name": "Principles of Management",
+        "credits": 3
+      }
+    ],
+    "elective_courses": {
+      "choose": 2,
+      "from": [
+        "ACC 2302",
+        "GBU 3311",
+        "GBU 4308",
+        "MGT 3302",
+        "MGT 4303",
+        "MIS 3302",
+        "MKT 3301",
+        "MKT 4304",
+        "MKT 4305",
+        "SCM 4301"
+      ]
+    },
+    "total_credits": 15
+  }
+}

@@ -1,0 +1,179 @@
+.create-planner {
+  margin-left: 260px;
+  min-height: 100vh;
+  background: #f5f5f7;
+  transition: margin-left 0.3s ease, width 0.3s ease;
+  width: calc(100% - 260px);
+}
+
+.create-planner.sidebar-collapsed {
+  margin-left: 90px;
+  width: calc(100% - 90px);
+}
+
+.content-wrapper {
+  padding: 32px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.create-planner-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.create-planner-left,
+.create-planner-right {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  min-width: 0;
+  overflow: hidden;
+}
+
+/* Degree Overview Section */
+.degree-overview-section {
+  margin-top: 40px;
+  background: white;
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.degree-overview-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1d29;
+  margin-bottom: 24px;
+}
+
+.no-courses-message {
+  text-align: center;
+  padding: 60px 20px;
+  color: #6b7280;
+  font-size: 16px;
+}
+
+.academic-years-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.academic-year-row {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.academic-year-label h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #374151;
+  margin: 0;
+}
+
+.semesters-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.semester-overview-card {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.semester-overview-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.semester-overview-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0;
+}
+
+.semester-overview-credits {
+  font-size: 14px;
+  font-weight: 600;
+  color: #8b5cf6;
+  background: #f3e8ff;
+  padding: 4px 12px;
+  border-radius: 12px;
+}
+
+.semester-overview-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.semester-overview-table thead th {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  color: #6b7280;
+  padding: 8px 4px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.semester-overview-table tbody tr {
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.semester-overview-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.semester-overview-table tbody td {
+  padding: 10px 4px;
+  font-size: 13px;
+}
+
+.course-code-small {
+  color: #6366f1;
+  font-weight: 600;
+}
+
+.course-title-small {
+  color: #374151;
+}
+
+.course-credits-small {
+  color: #6b7280;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .create-planner-split {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .create-planner {
+    margin-left: 80px;
+    width: calc(100% - 80px);
+  }
+  
+  .content-wrapper {
+    padding: 20px;
+  }
+  
+  .semesters-row {
+    grid-template-columns: 1fr;
+  }
+}

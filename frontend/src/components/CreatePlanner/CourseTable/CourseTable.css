@@ -1,0 +1,125 @@
+/* CourseTable.css */
+
+.course-table-container {
+  border: 2px dashed #d1d5db;
+  border-radius: 0.5rem;
+  background-color: white;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+.course-table-container.drop-hover {
+  border-color: #3b82f6;
+  background-color: #eff6ff;
+}
+
+.course-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.course-table thead {
+  background-color: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.course-table th {
+  text-align: left;
+  padding: 0.625rem 0.75rem; /* Smaller padding */
+  font-weight: 600;
+  color: #374151;
+  font-size: 0.8125rem; /* Smaller from 0.875rem */
+}
+
+.course-table th:last-child {
+  width: 2.5rem; /* Smaller */
+}
+
+.course-table td {
+  padding: 0.625rem 0.75rem; /* Smaller padding */
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.course-table tbody tr:hover {
+  background-color: #f9fafb;
+}
+
+.course-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.course-code {
+  font-family: 'Courier New', monospace;
+  font-weight: 600;
+  color: #2563eb;
+  font-size: 0.8125rem; /* Smaller from 0.875rem */
+}
+
+.course-title {
+  color: #1f2937;
+  font-weight: 500;
+  font-size: 0.875rem; /* Added smaller size */
+  margin-bottom: 0.1875rem; /* Reduced */
+}
+
+.course-prerequisites {
+  font-size: 0.6875rem; /* Smaller from 0.75rem */
+  color: #6b7280;
+  margin-top: 0.1875rem; /* Reduced */
+}
+
+.course-credits-badge {
+  display: inline-block;
+  padding: 0.1875rem 0.5rem; /* Smaller padding */
+  border-radius: 9999px;
+  font-size: 0.6875rem; /* Smaller from 0.75rem */
+  font-weight: 500;
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.remove-button {
+  width: 1.75rem; /* Smaller */
+  height: 1.75rem; /* Smaller */
+  color: #9ca3af;
+  background-color: transparent;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1.125rem; /* Smaller */
+  transition: all 0.2s ease;
+}
+
+.remove-button:hover {
+  color: #dc2626;
+  background-color: #fee2e2;
+}
+
+.empty-state-cell {
+  text-align: center;
+  padding: 2rem 1rem !important; /* Reduced */
+}
+
+.empty-state {
+  color: #9ca3af;
+}
+
+.empty-state-title {
+  font-weight: 500;
+  color: #6b7280;
+  font-size: 0.875rem; /* Smaller */
+  margin-bottom: 0.1875rem;
+}
+
+.empty-state-subtitle {
+  font-size: 0.8125rem; /* Smaller from 0.875rem */
+}
+
+@media (max-width: 768px) {
+  .course-table th,
+  .course-table td {
+    padding: 0.5rem;
+    font-size: 0.8125rem;
+  }
+}

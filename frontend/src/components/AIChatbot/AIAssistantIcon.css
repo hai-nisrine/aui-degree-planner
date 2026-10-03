@@ -1,0 +1,191 @@
+/* AI Assistant Container */
+.ai-assistant-container {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1000;
+}
+
+/* Suggestion Popup */
+.suggestion-popup {
+  position: absolute;
+  bottom: 85px;
+  right: 0;
+  width: 300px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  padding: 16px;
+  display: flex;
+  gap: 12px;
+  animation: slideInUp 0.3s ease-out;
+  border-left: 4px solid;
+}
+
+.suggestion-popup.suggestion-info {
+  border-left-color: #3b82f6;
+  background: linear-gradient(to right, #eff6ff, white);
+}
+
+.suggestion-popup.suggestion-warning {
+  border-left-color: #f59e0b;
+  background: linear-gradient(to right, #fffbeb, white);
+}
+
+.suggestion-popup.suggestion-success {
+  border-left-color: #22c55e;
+  background: linear-gradient(to right, #f0fdf4, white);
+}
+
+.suggestion-popup.suggestion-recommendation {
+  border-left-color: #8b5cf6;
+  background: linear-gradient(to right, #faf5ff, white);
+}
+
+.suggestion-content {
+  flex: 1;
+}
+
+.suggestion-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.suggestion-header svg {
+  color: #8b5cf6;
+}
+
+.suggestion-text {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #4b5563;
+}
+
+.suggestion-close {
+  background: none;
+  border: none;
+  color: #9ca3af;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  height: fit-content;
+}
+
+.suggestion-close:hover {
+  background: #f3f4f6;
+  color: #6b7280;
+}
+
+/* Floating AI Icon Button */
+.ai-icon-button {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 24px rgba(139, 92, 246, 0.4);
+  transition: all 0.3s ease;
+}
+
+.ai-icon-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 32px rgba(139, 92, 246, 0.5);
+}
+
+.ai-icon-button:hover svg {
+  transform: rotate(12deg);
+}
+
+.ai-icon-button svg {
+  transition: transform 0.3s ease;
+}
+
+/* Notification Badge */
+.notification-badge {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 20px;
+  height: 20px;
+  background: #ef4444;
+  border-radius: 50%;
+  border: 3px solid white;
+  animation: pulse 2s infinite;
+}
+
+/* Ripple Effect */
+.ripple-effect {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: rgba(139, 92, 246, 0.4);
+  animation: ripple 2s infinite;
+}
+
+/* Animations */
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(1);
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .ai-assistant-container {
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .suggestion-popup {
+    width: 280px;
+    right: 0;
+  }
+
+  .ai-icon-button {
+    width: 56px;
+    height: 56px;
+  }
+
+  .ai-icon-button svg {
+    width: 24px;
+    height: 24px;
+  }
+}

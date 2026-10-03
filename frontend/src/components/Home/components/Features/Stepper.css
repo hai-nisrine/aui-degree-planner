@@ -1,0 +1,201 @@
+.outer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  min-height: 500px;
+}
+
+.step-circle-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 20rem;
+  border-radius: 1.25rem;
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.step-circle-container:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(155, 135, 245, 0.25);
+  border-color: #c787f5;
+  animation: lightBounce 0.6s ease;
+}
+
+@keyframes lightBounce {
+  0%, 100% {
+    transform: translateY(-8px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+.step-indicator-row {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 1rem;
+}
+
+.step-content-default {
+  position: relative;
+  overflow: visible;
+  transition: all 0.3s ease;
+  min-height: 200px;
+  padding-bottom: 2rem;
+}
+
+.step-default {
+  padding: 1rem 1rem 2rem;
+  background: transparent;
+}
+
+.footer-container {
+  padding: 0.5rem 1rem 1.5rem;
+  background: transparent;
+  border-radius: 0 0 1.25rem 1.25rem;
+}
+
+.footer-nav {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.footer-nav.spread {
+  justify-content: space-between;
+}
+
+.footer-nav.end {
+  justify-content: flex-end;
+}
+
+.back-button {
+  transition: all 350ms;
+  border-radius: 50px;
+  padding: 0.5rem 1.25rem;
+  color: #6B7280;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid transparent;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.back-button:hover {
+  color: #111827;
+  background: #FAFAFE;
+  border-color: #E5E7EB;
+}
+
+.next-button {
+  transition: all 350ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #c787f5, #b775e6);
+  color: #FFFFFF;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  padding: 0.5rem 1.25rem;
+  cursor: pointer;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+}
+
+.next-button:hover {
+  background: linear-gradient(135deg, #bf7cef, #ab65dd);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(155, 135, 245, 0.4);
+}
+
+.next-button:active {
+  transform: translateY(0);
+}
+
+.step-indicator {
+  position: relative;
+  outline: none;
+}
+
+.step-indicator-inner {
+  display: flex;
+  height: 1.5rem;
+  width: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.step-indicator-inner-inactive {
+  background-color: #F3F4F6;
+  color: #9CA3AF;
+}
+
+.step-indicator-inner-active {
+  background-color: #c787f5;
+  color: #FFFFFF;
+}
+
+.step-indicator-inner-complete {
+  background-color: #c787f5;
+  color: #FFFFFF;
+}
+
+.active-dot {
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 9999px;
+  background-color: #FFFFFF;
+}
+
+.step-number {
+  font-size: 0.75rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.step-connector {
+  position: relative;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  height: 0.125rem;
+  flex: 1;
+  overflow: hidden;
+  border-radius: 0.25rem;
+  background-color: #E5E7EB;
+}
+
+.step-connector-inner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  transition: width 0.4s ease;
+}
+
+.step-connector-complete {
+  width: 100%;
+  background-color: #c787f5;
+}
+
+.check-icon {
+  height: 0.75rem;
+  width: 0.75rem;
+  color: #FFFFFF;
+}
